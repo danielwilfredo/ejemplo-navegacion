@@ -2,7 +2,7 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-
+import { Calendar } from 'react-native-calendars';
 const Screen1 = () => {
   const navigation = useNavigation();
 

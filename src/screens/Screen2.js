@@ -1,10 +1,13 @@
 // Screen1.js
-import React from 'react';
+import React, {useState} from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import {TabControl} from 'rn-segmented-tab-controls';
 
 const Screen2 = () => {
   const navigation = useNavigation();
+
+
 
   const navigateToScreen2 = () => {
     navigation.navigate('Screen1');
